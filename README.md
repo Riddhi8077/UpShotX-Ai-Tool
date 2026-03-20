@@ -1,4 +1,4 @@
-#  UpShotX AI – AI-Powered LinkedIn Content Generator
+#  UpShotX AI - AI-Powered LinkedIn Content Generator
 
 A production-ready AI tool built for generating high-quality LinkedIn posts using minimal input.
 
