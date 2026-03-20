@@ -265,7 +265,7 @@ The primary goal was to design a system capable of generating structured, high-q
 
 <div align="center">
 
-<a href="https://your-live-link.com" target="_blank">
+<a href="https://upshotx.com/ai-tools/" target="_blank">
   <img src="https://img.shields.io/badge/🚀%20Launch%20Live%20App-000000?style=for-the-badge&logo=vercel&logoColor=white" />
 </a>
 
