@@ -1,73 +1,113 @@
-# Welcome to your Lovable project
+#  UpShotX AI – AI-Powered LinkedIn Content Generator
 
-## Project info
+A production-ready AI tool built for generating high-quality LinkedIn posts using minimal input.
 
-**URL**: https://lovable.dev/projects/5758f02f-a83f-405a-915e-6cfd3779e722
+Designed and developed as a **freelance client project**, this platform helps users create structured, engaging content based on topic, tone, and keywords.
 
-## How can I edit this code?
+##  Project Context
 
-There are several ways of editing your application.
+This project was developed as part of a freelance engagement for a client building an AI-driven content platform.
 
-**Use Lovable**
+The objective was to create a fast, scalable, and user-friendly tool capable of generating LinkedIn-ready posts with minimal user effort.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5758f02f-a83f-405a-915e-6cfd3779e722) and start prompting.
+The focus was on:
+- clean UI/UX
+- structured AI output
+- scalable backend integration
+- SaaS-readiness
 
-Changes made via Lovable will be committed automatically to this repo.
+##  Problem
 
-**Use your preferred IDE**
+Creating consistent, engaging LinkedIn content is time-consuming and mentally exhausting for most users.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Many people have ideas but struggle with structuring them into high-quality posts.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+##  Solution
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+UpShotX AI simplifies this process by transforming a simple input (topic + tone + keywords) into a complete, ready-to-post LinkedIn content piece in seconds.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+##  Features
 
-# Step 3: Install the necessary dependencies.
-npm i
+-  AI-powered content generation  
+-  Tone-based writing (motivational, professional, casual, etc.)  
+-  Keyword-driven content enhancement  
+-  Fast response and smooth UX  
+-  Backend API integration  
+-  Payment-ready system (Razorpay integration)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+##  Architecture Overview
 
-**Edit a file directly in GitHub**
+The application follows a modular full-stack architecture:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Frontend → Handles UI, user input, and rendering  
+Backend → Manages API logic and AI communication  
+AI Layer → Processes prompts and generates structured content  
 
-**Use GitHub Codespaces**
+### Flow:
+User Input → Frontend → Backend API → AI Processing → Response → UI Display
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+##  Tech Stack
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
+**Frontend**
+- React (TypeScript)
 - Tailwind CSS
+- Vite
 
-## How can I deploy this project?
+**Backend**
+- Node.js
+- Express.js
 
-Simply open [Lovable](https://lovable.dev/projects/5758f02f-a83f-405a-915e-6cfd3779e722) and click on Share -> Publish.
+**AI Integration**
+- OpenAI API (Prompt Engineering)
 
-## Can I connect a custom domain to my Lovable project?
+**Other Integrations**
+- Razorpay (for payment flow)
 
-Yes, you can!
+##  Screenshots
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Landing Page
+![Landing](screenshots/landing.png)
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### Content Generator
+![Generator](screenshots/generator.png)
+
+##  Live Demo
+
+🔗 https://your-live-link.com
+
+> Note: This project is live and actively used as part of a client deployment.
+
+##  My Role
+
+- Designed and developed the full frontend UI  
+- Integrated backend APIs for AI generation  
+- Implemented prompt-based AI logic  
+- Structured the application for scalability  
+- Integrated Razorpay payment workflow
+
+##  Key Learnings
+
+- Building production-level AI applications  
+- Structuring prompts for predictable outputs  
+- Managing frontend-backend communication  
+- Designing user-focused UI/UX  
+- Working on real client requirements and constraints
+
+##  Future Enhancements
+
+- Multi-platform content generation  
+- AI-based hashtag suggestions  
+- Content performance analytics  
+- User authentication & dashboard  
+- Content history & saving system
+
+## ⚠️ Disclaimer
+
+This project was developed for a client.  
+Some features, configurations, or business logic may be limited or modified in this public version.
+
+## ⭐ Support
+
+If you found this project interesting, feel free to star ⭐ the repository.
