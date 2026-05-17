@@ -13,8 +13,6 @@
 
 <div align="center">
 
-## 🎥 Live Demo
-
 <!-- Replace this with your actual video or GIF -->
 
 <img src="https://user-images.githubusercontent.com/your-video-demo.gif" width="90%" alt="UpShotX AI Demo"/>
