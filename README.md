@@ -9,8 +9,6 @@
 
 </div>
 
----
-
 <div align="center">
 
 <!-- Replace this with your actual video or GIF -->
